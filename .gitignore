@@ -1,0 +1,9 @@
+run.bat
+*sublime*
+*.map
+*.png
+*.tif
+*.txt
+/log
+/archive
+/output
