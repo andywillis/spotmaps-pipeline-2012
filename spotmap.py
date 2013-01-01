@@ -1,5 +1,5 @@
 from __future__ import division
-import os, glob, math, sys, time, wave
+import os, glob, math, sys, time
 import cv
 from zipfile import *
 from PIL import Image, ImageDraw
@@ -13,7 +13,7 @@ os.system('cls')
 input = 'C:\\Users\\Andy\\Downloads\\Torrents\\process\\'
 output = 'output/'
 author = 'Andy Willis'
-log = '/log/spotmap.log'
+log = 'log/spotmap.log'
 
 # Init log file
 if os.path.isfile(log) == True:
