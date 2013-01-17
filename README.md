@@ -20,7 +20,7 @@ Python / OpenCV pipeline to process films and extract their colour information.
 	* Die Hard
 * Use a text editor to
 	* edit the getList.py file to point to the folder containing the films.
-	* Edit the spotmaps.py file to:
+	* edit the spotmaps.py file to:
 		* point to the folder containing the films
 		* the handle/name of the contributor
 
