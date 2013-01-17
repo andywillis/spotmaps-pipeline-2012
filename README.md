@@ -6,16 +6,10 @@ Python / OpenCV pipeline to process films and extract their colour information.
 
 **Please note that these notes relate to a build in a Windows development environment.**
 
-[Python](http://python.org/)  
-Version 2.7
-
+[Python](http://python.org/) - version 2.7
 [Python Imaging Library](http://www.pythonware.com/products/pil/)
-
 [Numpy](http://sourceforge.net/projects/numpy/)
-
-[OpenCV](http://opencv.org/)  
-Ensure that you add the path of the OpenCV build module to your PYTHONPATH environment variable.  
-For example: [root]\opencv\build\python\2.7
+[OpenCV](http://opencv.org/) - Ensure that you add the path of the OpenCV build module to your PYTHONPATH environment variable, for example: ;[root]\opencv\build\python\2.7;
 
 ## Preparation
 
