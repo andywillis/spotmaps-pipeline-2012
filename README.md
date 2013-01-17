@@ -28,7 +28,7 @@ Python / OpenCV pipeline to process films and extract their colour information.
 
 * Run the getList.bat file to build a new list of processable files from the input folder. Note that due to the vagaries of openCV some files might be unreadable because of a format issue.
 * Run the spotmaps.bat file to start the main process. Map, PNG and TIF files will be placed in the output folder.
-* Zip up the files and, depending on filesize, either:
+* Zip up the files - including the processedFiles.txt file - and, depending on filesize, either:
 	* attach the zip file to a new email to spotmaps@lavabit.com, or
 	* put the zip file somewhere it can be downloaded and email spotmaps@lavabit.com with the download location
 	
