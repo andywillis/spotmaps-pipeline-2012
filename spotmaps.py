@@ -1,18 +1,17 @@
 from __future__ import division
 import os, glob, math, sys, time
 import cv
-from zipfile import *
 from PIL import Image, ImageDraw
 from numpy import *
 
 os.system('cls')
 
-# IO vars
-#input = 'C:\\Users\\Andy\\Downloads\\Torrents\\'
-# input = 'F:\\Media\\Films\\'
-input = 'C:\\Users\\Andy\\Downloads\\Torrents\\process\\'
+# User defined vars - use double backslashes if folder is not in spotmaps folder
+input = 'C:\\Users\\spotmaps\\process\\'
+contributor = 'Andy Willis'
+
+# Output and log files
 output = 'output/'
-author = 'Andy Willis'
 log = 'log/spotmap.log'
 
 # Init log file
@@ -151,7 +150,7 @@ for infile in glob.glob(input + '*.avi'):
 					mapFile.write('{')
 					mapFile.write('"title": "' + filename + '",')
 					mapFile.write('"numberOfSpots": ' + str(completeNumberOfSpots) + ',')
-					mapFile.write('"author": "' + author + '",')
+					mapFile.write('"contributor": "' + contributor + '",')
 					mapFile.write('"rgba": "')
 					mapFile.write(str(rgbData.tolist()) + '"')
 					mapFile.write('}')

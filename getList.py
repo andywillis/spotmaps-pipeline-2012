@@ -2,10 +2,8 @@ from __future__ import division
 import os, glob, math, sys, time
 import cv
 
-# IO vars
-# input = 'C:\\Users\\Andy\\Downloads\\Torrents\\'
-# input = 'F:\\Media\\Films\\'
-input = 'C:\\Users\\Andy\\Downloads\\Torrents\\process\\'
+# User defined var - use double backslashes if folder is not in spotmaps folder
+input = 'C:\\Users\\spotmaps\\process\\'
 
 if os.path.isfile('newlist.txt') == True:
 	os.remove('newlist.txt')

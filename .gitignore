@@ -4,10 +4,7 @@ run.bat
 *.png
 *.tif
 *.txt
-*.log
 /archive
-/output/archive
-/output/ase
 /output/jpg
 /output/maps
 /output/tif
