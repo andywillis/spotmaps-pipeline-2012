@@ -37,8 +37,7 @@ Python / OpenCV pipeline to process films and extract their colour information.
 **Do not delete the processedFiles.txt file from the folder as this is added to and used with each new process.**
 	
 ## License
-spotmaps &copy; 2012 Andy Willis  
-Licensed under [MIT license](http://www.opensource.org/licenses/mit-license.php)
+spotmaps &copy; 2012 Andy Willis. [MIT licensed](http://www.opensource.org/licenses/mit-license.php)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
