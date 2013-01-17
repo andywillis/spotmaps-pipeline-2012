@@ -32,6 +32,10 @@ Python / OpenCV pipeline to process films and extract their colour information.
 	* attach the zip file to a new email to spotmaps@lavabit.com, or
 	* put the zip file somewhere it can be downloaded and email spotmaps@lavabit.com with the download location
 	
+## Note
+
+**Do not delete the processedFiles.txt file from the folder as this is added to and used with each new process.**
+	
 ## License
 spotmaps &copy; 2012 Andy Willis  
 Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
