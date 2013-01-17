@@ -18,10 +18,11 @@ Python / OpenCV pipeline to process films and extract their colour information.
 	* Full Monty, The
 	* Christmas Carol, A
 	* Die Hard
-* Edit the getList.py file to point to the folder containing the films.
-* Edit the spotmaps.py file to:
-	* point to the folder containing the films
-	* the name of the contributor
+* Use a text editor to
+	* edit the getList.py file to point to the folder containing the films.
+	* Edit the spotmaps.py file to:
+		* point to the folder containing the films
+		* the handle/name of the contributor
 
 ## Procedure
 
