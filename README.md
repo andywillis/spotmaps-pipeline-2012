@@ -13,7 +13,7 @@ Python / OpenCV pipeline to process films and extract their colour information.
 
 ## Preparation
 
-* Run files in small batches of around 20.
+* Convert your DVDs to AVI files.
 * Rename the files so that they conform to the spotmap title style:  
 	* Full Monty, The
 	* Christmas Carol, A
@@ -26,6 +26,7 @@ Python / OpenCV pipeline to process films and extract their colour information.
 
 ## Procedure
 
+* Run files in small batches of around 20.
 * Run the getList.bat file to build a new list of processable files from the input folder. Note that due to the vagaries of openCV some files might be unreadable because of a format issue.
 * Run the spotmaps.bat file to start the main process. Map, PNG and TIF files will be placed in the output folder.
 * Zip up the files - including the processedFiles.txt file - and, depending on filesize, either:
